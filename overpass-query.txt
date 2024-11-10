@@ -1,0 +1,8 @@
+[out:json][timeout:25];
+nwr["railway"="subway"](49.124668601968196,-123.21029663085939,49.30050157036354,-122.78491973876955);
+// Include LHI -> BDI & TCP, which is currently marked as railway=construction
+rel(id:7882446)->.expo;
+(._;nwr(r.expo)["railway"="construction"];way(id:379690502););
+// End "Include LHI -> BDI & TCP"
+(._;>;);
+out geom meta;
