@@ -1,6 +1,5 @@
 #!/bin/bash
 set -o errexit
-source util.sh
 
 convertGeoJSON() {
   echo "Converting $1 to PGSQL..."

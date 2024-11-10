@@ -108,7 +108,7 @@ WITH all_way_nodes AS (
 ), way_Lines AS (
     SELECT
         way,
-        array_agg(node) AS nodes,
+        array_agg(node ORDER BY ordinal) AS nodes,
         st_makeline(array_agg(point ORDER BY ordinal)) AS line,
         system_id
     FROM all_way_nodes awn
