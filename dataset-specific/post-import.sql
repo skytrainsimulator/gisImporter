@@ -189,7 +189,7 @@ WITH _gtfsPlatformMap AS ( VALUES
     ('11285', 'LGIC'),
     ('11286', 'MDOC'),
     ('11287', 'MDIC'),
-    ('8759', 'BPOC'),
+    ('11288', 'BPOC'),
     ('11289', 'BPIC'),
 
     ('11296', 'TMOC'),
